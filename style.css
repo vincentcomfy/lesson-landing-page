@@ -1,0 +1,121 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background: #3882F6;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.upper-header, .lower-header {
+    color: #F9FAF8;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.lower-header {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-header-left p:last-of-type {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.upper-header-links {
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+.lower-header-right {
+    font-size: 18px;
+}
+
+.upper-main p:first-of-type {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.upper-main .cards p {
+    font-size: 18px;
+}
+
+.upper-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20%;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.middle-main {
+    background: #E5E7EB;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3% 20%;
+}
+
+.middle-main p:first-of-type {
+    font-style: italic;
+    font-weight: light;
+}
+
+.middle-main p:last-of-type {
+    text-align: right;
+    font-weight: 500;
+    padding-right: 50px;
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content {
+    flex-grow: 1; /* Allow this section to take up available space, pushing the footer down */
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
